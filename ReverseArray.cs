@@ -1,19 +1,36 @@
 using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-class Program
+namespace Arrays
 {
-    static void Main()
+    internal class Class2
     {
-        // 1. Initialize the array
-        int[] original = { 1, 2, 3, 4, 5 };
-        
-        Console.WriteLine("Original Array:");
-        foreach(int num in original) Console.Write(num + " ");
-        
-        // 2. Reverse the array
-        Array.Reverse(original);
+      static void Main(string[] args)
+      {
+            Console.WriteLine("Please enter the size of the Array");
+            int Size = int.Parse(Console.ReadLine());
 
-        Console.WriteLine("\nReversed Array:");
-        foreach(int num in original) Console.Write(num + " ");
+            int[] MyArray = new int[Size];
+
+            for (int i = 0; i < Size ; i++)
+            {
+                Console.WriteLine("Please Enter the Number");
+                int Number = int.Parse(Console.ReadLine());
+
+                MyArray[i] = Number;
+
+            }
+            int[]ReversedArray = MyArray.Reverse().ToArray();
+
+            for (int i = 0;i < Size; i++)
+            {
+                Console.Write(ReversedArray[i] + " ");
+            }
+
+      }
+
     }
 }
