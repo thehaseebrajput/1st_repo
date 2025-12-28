@@ -21,6 +21,10 @@ This repository demonstrates fundamental operations on **Arrays** in C#. An arra
 * **Description:** A program that sums all integers in an array and divides by the total count to find the mathematical average.
 * **Key Concept:** Accumulators and Type Casting.
 
+ ### 4. Student Grading System
+ * **File:** `StudentGradingSystem.cs`
+* **Description:** A program that first of all askes the number of students and then assings them grades on the basis of relative grading system.
+* **Key Concept:** Accumulation
 ## How to Run
 To run these files, you can use the .NET CLI:
 ```bash
