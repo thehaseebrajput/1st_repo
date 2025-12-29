@@ -28,7 +28,7 @@ This repository demonstrates fundamental operations on **Arrays** in C#. An arra
 
 ### 5. Matrix Addition with User Input
 * **File:** `SumTwoMatrices.cs`
-* **Description:** An interactive program that asks the user to define the size and contents of two separate matrices. It includes input validation to ensure the matrices are square (Rows == Columns) and then calculates the sum of the two matrices.
+* **Description:** An interactive program that asks the user to define the size and contents of two separate matrices. It includes input validation to ensure the matrices are of same dimensions and then calculates the sum of the two matrices.
 * **Key Concept:** Multi-dimensional Arrays (`[,]`), Nested Loops, and Input Validation loops (`while`).  
 ## How to Run
 To run these files, you can use the .NET CLI:
